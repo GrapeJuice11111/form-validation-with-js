@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="form-div">
+      <form novalidate>
+        <label>
+          FIRST NAME
+          <input type="text" name="first-name" id="first-name" required />
+        </label>
+        <label>
+          LAST NAME
+          <input type="text" name="last-name" id="last-name" required />
+        </label>
+        <label>
+          EMAIL
+          <input type="email" name="email-form" id="email-form" required />
+        </label>
+        <label>
+          PASSWORD
+          <input
+            type="password"
+            name="password-form"
+            id="password-form"
+            required
+          />
+        </label>
+        <label>
+          CONFIRM PASSWORD
+          <input
+            type="password"
+            name="confirm-password-form"
+            id="confirm-password-form"
+            required
+          />
+        </label>
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+  </body>
+</html>

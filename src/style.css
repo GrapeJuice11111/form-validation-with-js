@@ -1,1 +1,51 @@
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/inter/Inter-Regular.ttf);
+}
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0ea5e9;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-div {
+  padding: 70px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #4338ca;
+  font-size: large;
+  font-family: Inter;
+  color: white;
+  font-weight: bold;
+}
