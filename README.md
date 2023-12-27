@@ -1,2 +1,2 @@
-# template-repository
-This is a template repository for my everyday day to day projects that i have to work on. It includes webpack, eslint, prettier config files to get me fast to building.
+#form-validation-with-js
+This project showcases the form validation in JavaScript with constraint validation API. This project uses webpack, npm and constraint validation API to create a interactive form for users.
